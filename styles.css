@@ -11,7 +11,19 @@ body {
 
 li {
     list-style-type: disc;
-    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(29, 219, 29);
+    margin-right: 10px;
 }
 
 li::marker {
