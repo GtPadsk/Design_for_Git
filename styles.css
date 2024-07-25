@@ -10,9 +10,15 @@ body {
 }
 
 li {
-    color: rgb(26, 229, 26);
     list-style-type: disc;
+    font-size: 1.2rem;
+    line-height: 0.5;
+}
 
+li::marker {
+    font-size: 3rem;
+    line-height: 0.1s;
+    color: rgb(27, 219, 27);
 }
 
 .picture-header {
